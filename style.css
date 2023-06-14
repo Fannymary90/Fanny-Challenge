@@ -1,0 +1,97 @@
+/* RESET CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    height: 100vh;
+    background-image: url(./img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.5) ;
+    border-radius: 15px ;
+    width: 900px;
+    margin: auto;
+    margin-top: 15px;
+    padding: 70px;
+}
+
+.logo {
+    width: 200px;
+}
+
+h1 {
+    margin: 5px;
+} 
+
+h2 {
+    display: inline;
+}
+
+header, nav {
+    text-align: center;
+}
+
+header {
+    color: rgb(2, 226, 2);
+}
+
+nav {
+    background-color: rgb(2, 226, 2);
+    padding: 10px;
+}
+
+button {
+    padding: 2px 4px;
+}
+
+main {
+    color: white;
+}
+
+.cards {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 20px;
+}
+
+.card {
+    line-height: 25px;
+}
+
+.box {
+    border-radius: 4px;
+    height: 20px;
+    border: 1px solid transparent;
+}
+
+/* la doppia classe indicata dona maggiore chiarezza di rif. ma utilizzabile anche solo .caricamento1 */
+
+.box.caricamento1 {
+    background-color: orange;
+    width: 35%;
+}
+
+.box.caricamento2 {
+    background-color:rgb(108, 200, 68);
+    width: 60%;
+
+}
+
+.box.caricamento3 {
+    background-color: brown; 
+    width: 15%;
+}
